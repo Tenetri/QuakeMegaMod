@@ -24,6 +24,9 @@ Current Modifications Include:
 2. Whenever you launch Quake and want to start a server with this mod, press f10 before starting the server. 
 Note: If you forget to press F10 and your game has already started, press Esc, then select "End Game" and once your back at the lobby screen press F10
 
+## Notes
+This is my first ever Quake server mod. I used to make maps for this game back in 1999-2002, and though server mods were neat. I just didn't have the resources to learn how to do it. Now almost 20 years later, I finally took the time and made this. It's more or less a tribute to all the old mods I remember from back then.
+
 ## Credits
 Tenetri: Author
 
