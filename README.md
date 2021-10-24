@@ -12,6 +12,12 @@ Current Modifications Include:
 * Homing Rocket Launcher (Select Rocket Launcher twice): A homing rocket that will fly around and avoid walls until it starts tracking someone
 * BFG (Select Lightning Gun twice): Classic BFG, a slow moving lava ball that kills everyone in a small radius on impact. Costs 25 cells. (I might make this cost 50 cells, and double the radius)
 * Light Controller (Select Lightning Gun three times): A classic mod I remember would allow players to vote to turn the lights on and off. Since the vote used impulse commands, to keep things it accessible to console players I created this weapon instead
+* Biosuit has been replaced with Haste (I gave it a Blue Key model): It makes everything you do faster (I also removed the damage from Slime)
+* Reduced item respawn time in half for most items, and the rest has a 1/3 time reduction
+* Extra Gibs! The requires for players to gib is -10 health, instead of -40 health. There's 3x as many gibs, and they can be kicked around until they disappear. Also all hanging zombies are now killable and gib after 40 damage
+* Map Start has the func_bossgate removed which opens the arena for more deathmatch
+* Custom Death messages for the weapons I've added to the mod (EG: Tenetri was deleted by Tenetri's Homing Missile)
+* All maps show up with (MegaMod) inside the map name (Thanks to JPiolho)
 
 ## Installation
 1. Goto your 'Saved Games', which is separate from your Steam folder. Access this by using Run (Windows Key + R) and typing: %userprofile%\Saved Games\Nightdive Studios\Quake\
