@@ -1172,7 +1172,7 @@ void() CheckMOTD =
     {
         self.motd_time = time + 1;
         self.motd_count = self.motd_count + 1;
-        centerprint(self, "Hello ",self.netname," and Welcome to MegaMod,\n a Custom Quake Server Plugin by Tenetri!\n\nGrapple Hook <Impulse 24 & 25>\nModified SSG, SNG, GL, RL & LG\n\nAny bugs are likely related to my mod.\nTake care, and happy fragging!\n");
+        centerprint(self, "Hello ",self.netname," and Welcome to MegaMod,\n a Custom Quake Server Plugin by Tenetri!\n\nGrapple Hook <Impulse 24 & 25>\nModified SSG, SNG, GL, RL & LG\n\nAny bugs are likely related to my mod.\nAvailable on Github, search Quake MegaMod! Take care, and happy fragging!\n");
         return; //Spawn /w all weapons (Modded SSG and GL)!\nVampire (Regen on Kill)\nEven More Gibs! (Yummy!)\n16 Player Limit & Instant Level Changes
     }
 };
@@ -1411,7 +1411,12 @@ void(entity targ, entity attacker) ClientObituary =
 				if (rnum == IT_PROX_MINE)
 				{
 					deathstring = " ran into ";
-					deathstring2 = "'s Proximity Mine\n";
+					deathstring2 = "'s tripwire\n";
+				}
+				if (rnum == IT_FLARE_GUN)
+				{
+					deathstring = " illuminated by ";
+					deathstring2 = "'s flare\n";
 				}
 				if (rnum == IT_HOMING_RL)
 				{
