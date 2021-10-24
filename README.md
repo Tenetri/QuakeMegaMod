@@ -6,6 +6,7 @@ This changes the weapons and gameplay features of Quake (id1) maps.
 Current Modifications Include:
 *Grapple Hook: impulse 24 & 25 both extend and break the chain
 *Super Laser Gun (Select Super Shot Gun twice): Fire two lasers. A classic mod that was either featured on the regular shotgun, or the super shotgun at the cost of 5 shells
+
 *Trip Wire Gun (Select Super Nail Gun twice): Attach a trip wire on the wall that can be destoryed with rockets at the costs if 50 nails
 *Cluster Grenade Gun (Select Grenade Launcher twice): Classic cluster grendade launcher, turns into a cluster of grenades that do 50% regular damage (The one I origionally remember would'nt explode on impact, but this will do until I can figure out how to get it to bounce, then cluster explode)
 *Flare Gun (Select Grenade Launcher three times): A grenade that functions as a light source for a minute, which is useful for when someone turns the lights off (see Light Controller weapon)
