@@ -1,5 +1,5 @@
 # Quake MegaMod
-Quake MegaMod is a collection of mods  for mutliplayer deathmatch
+Quake MegaMod is a collection of mods  for mutliplayer deathmatch, and is compatiable with Quake Remastered
 
 ## Mod Details
 This changes the weapons and gameplay features of Quake (id1) maps.
