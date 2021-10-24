@@ -20,7 +20,7 @@ Current Modifications Include:
 * All maps show up with (MegaMod) inside the map name (Thanks to JPiolho)
 
 ## Installation
-1. Goto your 'Saved Games', which is separate from your Steam folder. Access this by using Run (Windows Key + R) and typing: %userprofile%\Saved Games\Nightdive Studios\Quake\
+1. Goto your 'Saved Games', NOT THE STEAM FOLDER. Access this by using Run (Windows Key + R) and typing: %userprofile%\Saved Games\Nightdive Studios\Quake\
 2. If it doesn't already exist, create a folder called "id1"
 3. Also, if it doesn't already exist, create another folder called "mod"
 4. Extract the contents of the ZIP into the folder called "id1" created in step 2. Please back up or delete and existing files in this folder before extracting
