@@ -273,7 +273,7 @@ void() player_light2   =[$light2, player_light1  ]
 	W_FireLightning();
 	self.attack_finished = time + 0.2;
 };
-void() player_light3   =[$light1, player_light1  ]
+void() player_light3   =
 {
 	self.effects = self.effects | EF_MUZZLEFLASH;
 
