@@ -26,8 +26,8 @@ Current Modifications Include:
 4. Extract the contents of the ZIP into the folder called "id1" created in step 2. Please back up or delete and existing files in this folder before extracting
 
 ## How to play
-1. Once in game, open the console and type > bind f10 "game mod"
-2. Whenever you launch Quake and want to start a server with this mod, press f10 before starting the server. 
+1. Launch Quake, open the console and type > bind f10 "game mod"
+2. Now whenever you launch Quake and want to start a server with this mod, press f10 before starting the server
 Note: If you forget to press F10 and your game has already started, press Esc, then select "End Game" and once your back at the lobby screen press F10
 
 ## Notes
