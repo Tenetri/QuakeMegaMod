@@ -1,5 +1,5 @@
 # Quake MegaMod
-Quake MegaMod is a collection of mods  for mutliplayer deathmatch, and is compatiable with the 2021 release of Quake
+Quake MegaMod is a collection of mods  for mutliplayer deathmatch, and is compatible with the 2021 release of Quake
 
 ## Mod Details
 This changes the weapons and gameplay features of Quake (id1) maps.
