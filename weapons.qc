@@ -1452,7 +1452,7 @@ void() W_SetCurrentAmmo =
 		self.weaponmodel = "progs/v_nail2.mdl";
 		self.weaponframe = 0;
 		self.items = self.items | IT_NAILS;
-		sprint (self, "Trip Wire Gun Selected!\n");
+		sprint (self, "Tripwire Gun Selected!\n");
 	}
 	else if (self.weapon == IT_GRENADE_LAUNCHER)
 	{
@@ -1460,7 +1460,7 @@ void() W_SetCurrentAmmo =
 		self.weaponmodel = "progs/v_rock.mdl";
 		self.weaponframe = 0;
 		self.items = self.items | IT_ROCKETS;
-		sprint (self, "Grendade Launcher Selected!\n");
+		sprint (self, "Grenade Launcher Selected!\n");
 	}
 	else if (self.weapon == IT_CLUSTER_GL)
 	{
@@ -1468,7 +1468,7 @@ void() W_SetCurrentAmmo =
 		self.weaponmodel = "progs/v_rock.mdl";
 		self.weaponframe = 0;
 		self.items = self.items | IT_ROCKETS;
-		sprint (self, "Cluster Grendade Launcher Selected!\n");
+		sprint (self, "Cluster Grenade Launcher Selected!\n");
 	}
 	else if (self.weapon == IT_FLARE_GUN)
 	{
