@@ -1023,7 +1023,7 @@ void() W_FireFlare =
 	missile.solid = SOLID_BBOX;
 	missile.classname = "grenade";
 	
-	if(random() < 0.3) 
+	if(random() < 0.1) 
 	{
 		missile.effects = missile.effects | EF_DIMLIGHT;
 	}else{
