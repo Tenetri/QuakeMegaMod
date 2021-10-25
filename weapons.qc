@@ -1052,7 +1052,7 @@ void() W_FireFlare =
 // set missile duration
 	if(lightstats)
 	{
-		missile.nextthink = time + 60;
+		missile.nextthink = time + 180;
 	}else{
 		missile.nextthink = time + 10;
 	}
