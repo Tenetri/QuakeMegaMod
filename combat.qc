@@ -104,10 +104,17 @@ void(entity targ, entity attacker) Killed =
 
 	monster_death_use();
 	self.th_die ();
-	//Vampire Mode
-	if (((((self != attacker)) && (attacker.health > FALSE)) && (attacker.health < attacker.max_health)))
+	
+	
+	// Handle health by killing by @jpiolho
+	//This replaces the vampire code I previously had. The game crashes randomly, and I think the old vampire code was crashing if both players die??? I really
+	//couldn't figure it out, so here we are lol. Thanks again jpiolho for saving the day (~Tenetri 2021)
+	if(self != attacker 					// Ignore self kills
+	&& attacker.health > 0					   // Ignore if the attacker is dead
+	&& attacker.health < attacker.max_health) // Only if the attacker has missing health
 	{
 		attacker.health = attacker.max_health;
+		//localsound(attacker,"items/health1.wav");
 	}
 	self = oself;
 };
